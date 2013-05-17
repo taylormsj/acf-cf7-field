@@ -1,44 +1,50 @@
-# ACF-CF7 Field
+=== ACF-CF7 Field ===
+Contributors: taylor.mitchellstjoseph
+Donate link: https://github.com/taylormsj/
+Tags: 
+Requires at least: 3.3
+Tested up to: 3.5.1
+Stable tag: 
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds a 'Contact Form 7' field type for the [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) WordPress plugin.
+Adds a 'Contact Form 7' field type for the Advanced Custom Fields WordPress plugin.
 
------------------------
-
-### Overview
+== Description ==
 
 Add one or more contact forms to a custom field.
 
-### Compatibility
-
-This add-on will work with:
-
-* version 4 and up
-* version 3 and bellow
-
-
-### Installation
+== Installation ==
 
 This add-on can be treated as both a WP plugin and a theme include.
 
-**Install as Plugin**
+Install as Plugin
 
-1. Copy the 'acf-cf7' folder into your plugins folder
-2. Activate the plugin via the Plugins admin page
+Copy the 'acf-cf7' folder into your plugins folder
+Activate the plugin via the Plugins admin page
+Include within theme
 
-**Include within theme**
+Copy the 'acf-cf7' folder into your theme folder (can use sub folders). You can place the folder anywhere inside the 'wp-content' directory
+Edit your functions.php file and add the code below (Make sure the path is correct to include the acf-cf7.php file)
 
-1.	Copy the 'acf-cf7' folder into your theme folder (can use sub folders). You can place the folder anywhere inside the 'wp-content' directory
-2.	Edit your functions.php file and add the code below (Make sure the path is correct to include the acf-cf7.php file)
-
-```php
-add_action('acf/register_fields', 'my_register_fields');
+`add_action('acf/register_fields', 'my_register_fields');
 
 function my_register_fields()
 {
-	include_once('acf-cf7/acf-cf7.php');
-}
-```
+    include_once('acf-cf7/acf-cf7.php');
+}`
+
+== Frequently asked questions ==
+
+
+
+== Screenshots ==
+
+
+
 == Changelog ==
 
-= 0.0.1 =
-* Initial Release.
+
+
+== Upgrade notice ==
+
