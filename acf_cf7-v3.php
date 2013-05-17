@@ -92,7 +92,7 @@ class acf_field_cf7 extends acf_Field{
           <td>
     <?php 
             //Get form names
-            $forms = get_posts(array('post_type' => 'wpcf7_contact_form', 'orderby' => 'id', 'order' => 'ASC'));  
+            $forms = get_posts(array('post_type' => 'wpcf7_contact_form', 'orderby' => 'id', 'order' => 'ASC', 'posts_per_page' => 999, 'numberposts' => 999));  
             $choices = array();
             $choices[0] = '---';
             $k = 1;
@@ -166,7 +166,7 @@ class acf_field_cf7 extends acf_Field{
     
 
     // Display all contact form 7 forms
-    $forms = get_posts(array('post_type' => 'wpcf7_contact_form', 'orderby' => 'id', 'order' => 'ASC'));       
+    $forms = get_posts(array('post_type' => 'wpcf7_contact_form', 'orderby' => 'id', 'order' => 'ASC', 'posts_per_page' => 999, 'numberposts' => 999));       
     if($forms){  
       foreach($forms as $k => $form){
         $key = $form->ID;
