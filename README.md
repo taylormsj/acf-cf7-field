@@ -6,7 +6,17 @@ Adds a 'Contact Form 7' field type for the [Advanced Custom Fields](http://wordp
 
 ### Overview
 
-Add one or more contact forms to a custom field.
+Store one or multiple contact forms in an advanced custom field.
+
+Mark one or more forms as disabled to prevent them from being selected.
+
+Field is returned as Contact Form 7 markup
+
+[Advanced Custom Field - Contact Form 7 Field on WordPress.org](http://wordpress.org/plugins/advanced-custom-fields-contact-form-7-field/)
+
+### Screenshots
+
+
 
 ### Compatibility
 
