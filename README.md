@@ -16,7 +16,14 @@ Field is returned as Contact Form 7 markup
 
 ### Screenshots
 
+![ScreenShot](https://raw.github.com/taylormsj/acf-cf7-field/master/screenshot-1.jpg)
+Contact Form 7 field options
 
+![ScreenShot](https://raw.github.com/taylormsj/acf-cf7-field/master/screenshot-2.jpg)
+Selecting multiple Contact Forms
+
+![ScreenShot](https://raw.github.com/taylormsj/acf-cf7-field/master/screenshot-3.jpg)
+Selecting a single Contact Form
 
 ### Compatibility
 
