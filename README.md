@@ -55,3 +55,7 @@ function my_register_fields()
 	include_once('acf-cf7/acf-cf7.php');
 }
 ```
+
+### Changelog
+
+1.1.0 - Added the ability to hide/show disabled forms on the select area.
