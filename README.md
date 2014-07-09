@@ -1,3 +1,8 @@
+### UPDATE
+
+ACF CF7 has been moved to support ACF V5, please find it here [https://github.com/taylormsj/acf-cf7](https://github.com/taylormsj/acf-cf7)
+
+
 # ACF-CF7 Field
 
 Adds a 'Contact Form 7' field type for the [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) WordPress plugin.
